@@ -1,0 +1,127 @@
+<!--Camille Laurencin Resume-->
+<!DOCTYPE html>
+<html lang="en">
+<!--Resume title and styling location.-->
+<head>
+    <meta charset="utf-8">
+    <title>Camille Laurencin Resume</title>
+    <link rel="icon" href="photo/clogo.png">
+    <link rel="stylesheet" type="text/css" href="css/cstyle.css">
+</head>
+<body>
+    <!--Links to sections within my resume document.-->
+    <span><a href="#About">About Me</a></span>&nbsp;
+    <span><a href="#Job1">Job 1</a></span>&nbsp;
+    <span><a href="#Job2">Job 2</a></span>&nbsp;
+    <span><a href="#Education">Education</a></span>&nbsp;
+    <span><a href="#footer">End</a></span>&nbsp;<br><br>
+    
+    
+    <div id="showDate"></div>
+    <header>
+        <!--Navigation links to my Cover Letter and Career Goals.-->
+        <h1>Camille Laurencin Resume</h1>
+        <a href="photo/prores.jpg" target="_blank"><img src="photo/prores.jpg"
+            alt="Photo" width="200" height="150"></a><br>
+        <p><em>Click below to view my Cover letter & Career goals below.</em></p>
+        <nav>
+            <ul>
+                <li><a target="_blank" class="nav-link" href="CamilleCoverLetter.html">Cover Letter</a></li>
+                <li><a target="_blank" class="nav-link" href="CamilleCareerGoals.html">Career Goals</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!--About me section of the 'resume'-->
+        <section id="About">
+            <h2>Quality Assurance Engineer</h2>
+            <p style="white-space: pre-line;">Experienced quality assurance professional with 20 + of expertise in creating and executing thorough quality assurance initiatives that have led to notable decreases in product defects. Proficient at working alongside cross-functional teams to pinpoint and address quality concerns, enhancing product dependability and customer satisfaction levels. Demonstrated capability in formulating and implementing test strategies and cases, resulting in heightened testing effectiveness and scope. Strong communication, leadership, and team-building abilities backed by a history of effective project management.</p>
+
+            <h2>Technical Skills</h2>
+            <p style="white-space: pre-line;"><strong>Testing Tools:</strong>  Selenium Web Driver/IDE/GRID/, TestNG, SoapUI, Eclipse, Appium, ALM
+            <strong>Defect Tracking:</strong>  HP Quality Center, Jira, Zephyr Scale, Service Now
+            <strong>Automation Tools:</strong>  Jenkins, Apache Maven
+            <strong>Operating System:</strong>  Windows, UNIX.Shell Scripting, Linux, MAC
+            <strong>API/ Web Service:</strong>  Postman, Swagger
+            <strong>Programming Language:</strong>  C, Java, Python, Shell Scripting, Visual Basic
+            <strong>RDBMS/ Database:</strong>  SQL Server, Golden, 1010 data, Power BI, MySQL, Toad, Postgres
+            <strong>Applications:</strong>  Mobile Application, Web-based Service, Client Server, DB & XML testing
+            </p>
+        </section>
+        <hr>
+        <section id="Job1">
+            <img src="photo/camv.jpg" alt="Logo" width="200" height="75">
+            <h3>Camvio</h3>
+            <strong><medium>Quality Assurance Engineer</medium></strong>
+            <ul>
+                <li>Worked with Business analyst and QA Manager in gathering technical and functional </li>
+                <li>Wrote test cases and test steps using Zephyr Scale</li>
+                <li>Performed, functional, regression, integration, UAT, and security testing for billing application</li>
+                <li>Tested and ensured proper functionality of the billing application on mobile IOS, android, and tablet devices when the user interacts with the application</li>
+                <li>Validated front-end testing with the use of Swagger and Postman API calls</li>
+                <li>Extensive backend testing for the front of the application using Postgres SQL</li>
+                <li>Performed user acceptance testing on the billing application by interacting with end users</li>
+
+
+            </ul>
+        </section>
+        <hr>
+        <section id="Job2">
+            <img src="photo/tmo.png" alt="Photo" width="100" height="40">
+            <h3>T-Mobile USA</h3>
+            <strong><medium>Senior Functional Analyst</medium></strong>
+            <ul>
+                <li>Developed and maintained automated test scripts for Regression testing using Selenium Web Driver and Java</li>
+                <li>Conducted testing across multiple devices, including Android and iOS, to ensure consistency and quality.</li>
+                <li>Created and executed SQL queries to conduct data integrity and validation testing</li>
+                <li>Used 1010 data and Power BI to validate large amounts of data for Sprouts Sales and store metrics</li>
+                <li>Identified, documented, and tracked defects using bug-tracking tools such as JIRA and Service Now ensuring timely resolution and communication with development teams.</li>
+                <li>Participated in agile ceremonies such as sprint planning, daily stand-ups, and retrospectives, providing input on quality-related aspects and ensuring timely delivery of high-quality software.</li>
+            </ul>
+        </section>
+        <hr>
+        <!--Table Section to List Education-->
+        <section id="Education">
+            <h4>Education</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th>School</th>
+                        <th>Degree/Certifications</th>
+                        <th>Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>WGU</td>
+                        <td>BA Software Engineering</td>
+                        <td>2025</td>
+                    </tr>
+                    <tr>
+                        <td>SMU</td>
+                        <td>Certified Unix System Admin</td>
+                        <td>2000</td>
+                    </tr>
+                    <tr>
+                        <td>Childersburg High School</td>
+                        <td>Advanced Diploma</td>
+                        <td>1995</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <article>
+            <h5>References are available upon request.</h5>
+        </article>
+    </main>
+    <footer id="footer">
+        <span><em>Resume<br> <a href="mailto:"><em>Claur16@wgu.edu</em></a></em></span>
+    </footer>
+</body>
+<!--javascript objective.-->
+<script>
+    document.getElementById("showDate").textContent = "Date: " + new Date().toDateString();
+    console.log("This is my first project")
+</script>
+
+</html>
